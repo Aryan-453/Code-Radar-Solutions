@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     float area;
-    float pie=3.14
+    float pie=3.14;
     float radius;
     printf("");
     scanf("%f",&radius);
