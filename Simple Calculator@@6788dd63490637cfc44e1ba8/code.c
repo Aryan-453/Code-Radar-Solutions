@@ -10,8 +10,8 @@ int main(){
     else if(ch=='*')
     printf("%d\n",a*b);
     else if(ch=='/')
-    printf("%d\n",a/b);
+    b!=0 ?  printf("%d\n",a/b) : printf("error");
     else
-    printf("error");
+    printf("Invalid");
     return 0;
 }
