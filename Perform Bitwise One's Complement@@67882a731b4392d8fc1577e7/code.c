@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    unsigned int result = ~a;
+    int result = ~a;
 
     printf("%u",result);
 
