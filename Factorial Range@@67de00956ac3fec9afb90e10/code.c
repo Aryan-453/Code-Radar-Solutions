@@ -7,7 +7,7 @@ int factorial(int n) {
     }
     return fact;
 }
-int factorialrange(int a,int b){
+int factorialRange(int a,int b){
     for(int i=a;i<=b;i++){
         printf("%d",factorial(i));
     }
