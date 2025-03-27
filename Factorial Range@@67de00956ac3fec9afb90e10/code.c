@@ -7,15 +7,18 @@ int factorial(int n) {
     }
     return fact;
 }
-int factorialrange(a,b){
-    int a,b;
-    for(i=a;i<=b;i++){
-        factorial(i)
+int factorialrange(int a,int b){
+    for(int i=a;i<=b;i++){
+        printf("%d",factorial(i));
     }
 }
 int main(){
 int start,end;
 scanf("%d %d",&start, &end);
+if (start > end || start < 0 || end < 0) {
+        printf("Invalid input\n");
+        return 1;
+    }
 factorialRange(start, end);
 return 0;
 }
