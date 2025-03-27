@@ -1,5 +1,5 @@
-#inlcude <stdio.h>
-void factorial(int n) {
+#include <stdio.h>
+int factorial(int n) {
     if (n == 0 || n == 1) return 1;
     int fact = 1;
     for (int i = 2; i <= n; i++) {
@@ -7,7 +7,7 @@ void factorial(int n) {
     }
     return fact;
 }
-void factorialrange(a,b){
+int factorialrange(a,b){
     int a,b;
     for(i=a;i<=b;i++){
         factorial(i)
